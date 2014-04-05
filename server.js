@@ -21,7 +21,7 @@ var io = require('socket.io').listen(8000);
 });
 
 io.sockets.on('connection', function(socket) {
-    //globalSocket = io.sockets; // socket globalizálása;
+    //globalSocket = io.sockets; // sockdet globalizálása;
     console.log('SOCKET CONNECTION');
     //socket név + szoba regisztráció
 
