@@ -13,7 +13,7 @@ var io = require('socket.io').listen(8000);
     // enable all transports
     io.set('transports', [
         'websocket',
-        'flashsocket', // cookie-s SESSION ID-t nem kezel!
+        'flashsocket', // cookie-s SEfSSION ID-t nem kezel!
         'htmlfile',
         'xhr-polling',
         'jsonp-polling'
